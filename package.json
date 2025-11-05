@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build"
+    "build": "ng build",
+    "update": "ng update @angular/cli @angular/core @angular/animations @angular/common @angular/compiler @angular/forms @angular/platform-browser @angular/router"
   },
   "dependencies": {
     "@angular/animations": "^18.1.0",

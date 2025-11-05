@@ -1,8 +1,10 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import 'kemet-ui';
-import 'kemet-ui/dist/styles/kemet.base.css';
 
+import 'kemet-ui/styles/kemet.base.css';
+import 'kemet-ui/elements/button';
+import 'kemet-ui/elements/drawer';
+import 'kemet-ui/elements/icon-bootstrap';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -13,7 +15,7 @@ import 'kemet-ui/dist/styles/kemet.base.css';
       </aside>
       <section slot="content">
         <button aria-label="toggle drawer" (click)="toggleDrawer()">
-          <kemet-icon icon="list" size="24"></kemet-icon>
+          <kemet-icon-bootstrap icon="list" size="24"></kemet-icon-bootstrap>
         </button>
         <br /><br />
         <div>
